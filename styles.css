@@ -1,0 +1,67 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;1,100;1,200;1,300;1,400&display=swap');
+
+:root {
+    --primary: rgb(255, 230, 0);
+    --primary-tr: rgb(255, 230, 0, 0.3);
+    --letter-color: white;
+    --letter: 'Raleway', sans-serif;
+}
+
+body, html {
+    height: 100%;
+    background-color: cadetblue;
+/*     background-color: black; */    
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    color: var(--letter-color);
+    font-family: var(--letter);
+}
+
+header {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    background-color: rgba(0, 0, 0, 0.418);
+    padding: 2%;
+}
+
+button {
+	background: none;
+	color: inherit;
+	border: none;
+	padding: 0;
+	font: inherit;
+	cursor: pointer;
+	outline: inherit;
+    margin: 0% 4% 0% 4%;
+}
+
+.logo {
+    margin-left: 10%;
+}
+
+.menu {
+    flex-direction: row;
+    width: 50%
+}
+
+.text_pic {
+    flex-direction: row;
+}
+
+.text_box {
+    padding: 20%;
+    align-items: flex-start;
+}
+
+.is_now {
+    display: flex;
+    flex-direction: row;
+    
+}
+
+h1 {
+    margin-right: 2%;
+}
